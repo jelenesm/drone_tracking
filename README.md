@@ -16,8 +16,8 @@ Details of mic array geometry and code available upon request.
 | Metric | Value |
 |--------|-------|
 | Simultaneous targets | 2–4 drones |
-| Audio Sampling rate | 16 kHz |
-| Update rate | 62.5 Hz |
+| Audio sampling rate | 16 kHz |
+| Tracking update rate | 62.5 Hz |
 | Frame duration | 16 ms |
 | Inference time | 0.14 ms per frame on RTX 3080 GPU |
 | Noise robustness | Robust to low SNR with quantization and per-mic gain mismatch |
@@ -26,7 +26,9 @@ Details of mic array geometry and code available upon request.
 
 ## Approach 1 — MUSIC Algorithm + Multi-Target Tracker
 
-Classical 3D MUSIC direction-of-arrival estimation paired with a multi-target tracker. Operates over band-limited frequencies to reject false positives from wind noise and other interference. Implemented in Python using scientific computing libraries.
+Classical 3D MUSIC direction-of-arrival estimation paired with a multi-target tracker. Operates over band-limited frequencies to reject false positives from wind noise and other interference. Algorithm does not require prior knowledge of number of targets. Implemented in Python using scientific computing libraries.
+
+### Tracking 2 Drones
 
 ![MUSIC pseudospectrum and tracking](music_tracking.gif)
 
@@ -35,8 +37,6 @@ Classical 3D MUSIC direction-of-arrival estimation paired with a multi-target tr
 **Source audio:** [Drone 1 — Bebop](audio_music_drone1.wav) | [Drone 2 — Membo](audio_music_drone2.wav)
 
 ![MUSIC azimuth and elevation accuracy](music_accuracy.png)
-
-*True vs. tracked azimuth and elevation for 2 drones. Run the notebook to compute MAE.*
 
 ---
 
