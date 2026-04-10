@@ -10,8 +10,8 @@ Details of mic array geometry and code available upon request.
 
 | Metric | 2 drones (MUSIC) | 2 drones (model) | 3 drones (model) |
 |--------|-----------|----------|----------|
-| Azimuth MAE | 2.6° | 2.9° | 4.4° |
-| Elevation MAE | 0.5° | 2.7° | 2.6° |
+| Azimuth MAE | 2.6° | 2.2° | 3.0° |
+| Elevation MAE | 0.5° | 2.0° | 2.6° |
 
 | Metric | Value |
 |--------|-------|
