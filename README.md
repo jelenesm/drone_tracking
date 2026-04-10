@@ -52,7 +52,6 @@ Peak detection and velocity-based tracking with coasting produce smooth trajecto
 
 *Animation plays in real-time.*
 
-Mean absolute error: 4.4° azimuth, 2.6° elevation.
 
 **Source audio:** [Drone A](audio_dl_droneA.wav) | [Drone B](audio_dl_droneB.wav) | [Drone C](audio_dl_droneC.wav)
 
@@ -62,7 +61,6 @@ Mean absolute error: 4.4° azimuth, 2.6° elevation.
 
 *Animation plays in real-time.*
 
-Mean absolute error: 2.9° azimuth, 2.7° elevation.
 
 **Source audio:** [Drone A](audio_dl_droneA.wav) | [Drone B](audio_dl_droneB.wav)
 
