@@ -8,10 +8,10 @@ Details of mic array geometry and code available upon request.
 
 ## Performance
 
-| Metric | 2 drones (MUSIC) | 2 drones (model) | 3 drones (model) |
-|--------|-----------|----------|----------|
-| Azimuth MAE | 2.6° | 2.2° | 3.0° |
-| Elevation MAE | 0.5° | 2.0° | 2.6° |
+| Metric | 2 drones (MUSIC) | 2 drones (model) | 3 drones (model) | 4 drones (model) |
+|--------|-----------|----------|----------|----------|
+| Azimuth MAE | 2.6° | 2.2° | 3.0° | 3.9° |
+| Elevation MAE | 0.5° | 2.0° | 2.6° | 3.1° |
 
 | Metric | Value |
 |--------|-------|
@@ -52,7 +52,6 @@ Peak detection and velocity-based tracking with coasting produce smooth trajecto
 
 *Animation plays in real-time.*
 
-
 **Source audio:** [Drone A](audio_dl_droneA.wav) | [Drone B](audio_dl_droneB.wav) | [Drone C](audio_dl_droneC.wav)
 
 ### Tracking 2 Drones
@@ -60,7 +59,6 @@ Peak detection and velocity-based tracking with coasting produce smooth trajecto
 ![Tracking 2 drones](tracking_2_drones.gif)
 
 *Animation plays in real-time.*
-
 
 **Source audio:** [Drone A](audio_dl_droneA.wav) | [Drone B](audio_dl_droneB.wav)
 
